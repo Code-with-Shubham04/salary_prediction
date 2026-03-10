@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 # Load model and encoders
-model = joblib.load("salary_prediction_rfr_model (3).pkl")
-encoder = joblib.load("label_encoder_Salary (1).pkl")
+model = joblib.load("model.pkl")
+encoder = joblib.load("encoder.pkl")
 
 st.title("Salary Prediction Model")
 
